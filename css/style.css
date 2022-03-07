@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #04850be3;
+}
+
+ul {
+    list-style: none;
+}
+
+/******************* header   ***************************************/
+
+.header-top {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 80px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s;
+}
+
+.header-top-title a {
+    font-size: 2rem;
+    transition: .5s;
+}
+
+.header-top-nav ul {
+    display: flex;
+}
+
+.header-top-nav li {
+    margin: 0 10px;
+}
+
+.header-top-nav a {
+    font-size: .9rem;
+    font-weight: 800;
+    transition: .5s;
+}
+
+
+/******************* health   ***************************************/
+
+.index-body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),
+        url("../images/old-runner.jpg");
+    background-color: #cccccc;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.health {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center
+}
+
+
+.health-title {
+    font-size: 8vmin;
+    margin-bottom: 2rem;
+}
+
+.health-text {
+    font-size: 5vmin;
+    margin-bottom: 2rem;
+}
+
+.health-link-enter {
+    border: 1px solid #d3d0d0;
+    padding: 12px 30px;
+    border-radius: 70px;
+    background-color: rgb(210, 208, 208, 0.3);
+    font-size: 3vmin;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    transition: .5s;
+}
+
+.hero-link:hover {
+    background: transparent;
+}
